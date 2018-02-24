@@ -44,3 +44,14 @@ Here is a high level list of the steps taken:
 4. Added Travis using these two pages
     ``` https://docs.travis-ci.com/user/getting-started/ ```
     ``` https://docs.travis-ci.com/user/languages/go/ ```
+5. Install Jenkins (on arch) ```"sudo packman -Syu jenkins"``` then start the service ```"sudo systemctrl
+   jenkins.service"```
+6. Logged on the ```localhost:8090``` and followed instructions and installed plugins - folders, timestamper, pipeline,
+   git, LDAP, GitHub, OWASP Markup Formatter, Workspace Cleanup, Git branch Source SSH Slaves, Email Extention, Ant,
+...
+
+
+
+
+-------------------------
+To do: Add links in Markdown
