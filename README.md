@@ -1,5 +1,4 @@
 # CICDHelloWorld
-<<<<<<< HEAD
 
 ## Aim 
 
@@ -15,8 +14,8 @@ Create a "simple as possible" starting set up for a CI-CD tool chain
 
 ## Language 
 
-I'm going to start with Go as Python is my normal weapon of choice but I wnt something compiled to add a small level of
-complexity
+I'm going to start with Go as Python is my normal weapon of choice but I want something compiled to add a small level of
+low complexity like:
 
 ```
 package main
@@ -36,6 +35,5 @@ My starting point was this article:
 ```https://www.ibm.com/cloud/garage/content/deliver/practice_delivery_pipeline/```
 
 I'll add a bibiliography of other useful resources I came upon on my journey as I go
-=======
-A "simple as possible" starting set up for a CI-CD tool chain
->>>>>>> 9a2e8b6d6fca20623976a2bfec47865ff295650c
+
+
