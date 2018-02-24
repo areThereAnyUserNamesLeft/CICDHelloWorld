@@ -34,6 +34,13 @@ My starting point was this article:
 
 ```https://www.ibm.com/cloud/garage/content/deliver/practice_delivery_pipeline/```
 
-I'll add a bibiliography of other useful resources I came upon on my journey as I go
+Here is a high level list of the steps taken:
 
+```// I'll add links of other useful resources I came upon on my journey as I go along and what I used them for```
 
+1. Made a repo on Git...
+2. Added a go file 
+3. Added a test file
+4. Added Travis using these two pages
+    ``` https://docs.travis-ci.com/user/getting-started/ ```
+    ``` https://docs.travis-ci.com/user/languages/go/ ```
