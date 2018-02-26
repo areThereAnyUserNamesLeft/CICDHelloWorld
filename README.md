@@ -60,8 +60,8 @@ Here is a high level list of the steps taken:
 ...~~
 7. Tried again using the [Jenkins official docker image](https://github.com/jenkinsci/docker) rather than installing locally where there might be some java
    dependancy issues occuring 
-8. Keep retrying the recommended plugin[https://docs.travis-ci.com/user/getting-started[https://docs.travis-ci.com/user/getting-started install until everything is deployed...
-9. Once every thing is present and correct install the (go plugin)[https://wiki.jenkins.io/display/JENKINS/Go+Plugin]
+8. Keep retrying the recommended plugins install until everything is deployed...
+9. Once every thing is present and correct install the [go plugin](https://wiki.jenkins.io/display/JENKINS/Go+Plugin)
    and follow the instructions to set up the tool
 WARNING - I am not securing my server but in reality I would if I were working on a real project
 10. Make a "New Item" - Give it a name and you should be able to add some commands into the execute shell section, in my
