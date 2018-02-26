@@ -17,7 +17,7 @@ Create a "simple as possible" starting set up for a CI-CD tool chain
 I'm going to start with Go as Python is my normal weapon of choice but I want something compiled to add a small level of
 low complexity like:
 
-```
+```go
 package main
 
 import "fmt"
