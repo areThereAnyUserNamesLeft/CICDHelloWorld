@@ -45,7 +45,7 @@ Here is a high level list of the steps taken:
 4. Added Travis usinag instructions on these two
    pages 
 
-[Travis-ci - getting started]([https://docs.travis-ci.com/user/getting-started/) 
+[Travis-ci - getting started](https://docs.travis-ci.com/user/getting-started/) 
 
 [Travis-ci - GO](https://docs.travis-ci.com/user/languages/go)
 
