@@ -10,7 +10,7 @@ Create a "simple as possible" starting set up for a CI-CD tool chain
 - Ci = Jenkins / Travis-CI
 - Config Management = Ansible
 - Deployment = ??? 
-- Testiong = ???
+- Testing = ???
 
 #### Language 
 
@@ -42,7 +42,7 @@ Here is a high level list of the steps taken:
 
 #### Travis-CI
 
-4. Added Travis usinag instructions on these two
+4. Added Travis using instructions on these two
    pages 
 
 [Travis-ci - getting started](https://docs.travis-ci.com/user/getting-started/) 
@@ -58,12 +58,14 @@ Here is a high level list of the steps taken:
 6. ~~Logged on the ```localhost:8090``` and followed instructions and installed plugins - folders, timestamper, pipeline,
    git, LDAP, GitHub, OWASP Markup Formatter, Workspace Cleanup, Git branch Source SSH Slaves, Email Extention, Ant,
 ...~~
-7. Tried again using the [Jenkins official docker image](https://github.com/jenkinsci/docker) rather than installing locally where there might be some java
-   dependancy issues occuring 
+7. Tried again using the [Jenkins official docker image](https://github.com/jenkinsci/docker) rather than installing it locally where there might be some java
+   dependancy issues occuring due to my OS. I ended up running into similar issues  
 8. Keep retrying the recommended plugins install until everything is deployed...
 9. Once every thing is present and correct install the [go plugin](https://wiki.jenkins.io/display/JENKINS/Go+Plugin)
    and follow the instructions to set up the tool
-WARNING - I am not securing my server but in reality I would if I were working on a real project
+
+**WARNING - I am not securing my server but in reality I would if I were working on a real project rather than just
+getting some low level experience - perhaps I 'll have that as a todo once I have the whole pipeline set up**
 10. Make a "New Item" - Give it a name and you should be able to add some commands into the execute shell section, in my
     case 
 ```go test -v && go build CICDHelloWorld.go``` 
