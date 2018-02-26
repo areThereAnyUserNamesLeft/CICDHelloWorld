@@ -66,8 +66,16 @@ Here is a high level list of the steps taken:
 
 **WARNING - I am not securing my server but in reality I would if I were working on a real project rather than just
 getting some low level experience - perhaps I 'll have that as a todo once I have the whole pipeline set up**
+
 10. Make a "New Item" - Give it a name and you should be able to add some commands into the execute shell section, in my
     case 
+
 ```go test -v && go build CICDHelloWorld.go``` 
 
+This does echo the Travis test but it will do for now...
+
 **Now we have jenkins working I can look at Anisible - then the fun can begin**
+
+#### Anisible
+
+1. 
