@@ -1,5 +1,5 @@
 # CICDHelloWorld
-
+[![Build Status](https://travis-ci.org/areThereAnyUserNamesLeft/CICDHelloWorld.svg?branch=master)](https://travis-ci.org/areThereAnyUserNamesLeft/CICDHelloWorld)
 ## Aim 
 
 Create a "simple as possible" starting set up for a CI-CD tool chain
