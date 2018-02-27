@@ -82,6 +82,6 @@ This is where I began to think - How can I do this for free - I did some researc
 environemnt - Si I looked a these articles
 
 (RED HAT DEVELOPER PROGRAM - Have your own Microservices playground)[https://developers.redhat.com/blog/2016/07/27/have-your-own-microservices-playground/] - A Kubernetes deployed local version of a cloud server
-(RED HAT DEVELOPER PROGRAM - Automating microservices deployment with Ansible)[Automating microservices deployment with Ansible] - How to manage deployment with ansible
+(RED HAT DEVELOPER PROGRAM - Automating microservices deployment with Ansible)[https://developers.redhat.com/blog/2016/11/21/automating-microservices-deployment-with-ansible/] - How to manage deployment with ansible
 
 1. 
